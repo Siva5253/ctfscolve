@@ -85,7 +85,6 @@ autodoc_mock_imports = [
     "pdftotext",
     "PyPDF2",
     "OpenSSL",
-    "gmpy",
     "primefac",
     "cmd2",
     "watchdog",

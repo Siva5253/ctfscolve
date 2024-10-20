@@ -14,7 +14,6 @@ import binascii
 import decimal
 
 import primefac
-import gmpy
 from Crypto.Util.number import inverse, long_to_bytes
 from OpenSSL import crypto
 import re
