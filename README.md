@@ -1,34 +1,20 @@
 
-[![Run on Repl.it](https://repl.it/badge/github/JohnHammond/katana)](https://repl.it/github/JohnHammond/katana)
-Katana
+
 ==============
 
-> John Hammond | Caleb Stewart | February 18th, 2019
+> Matrix-_- | Sivasankaran B | 
 
 -----------------
 
-**Documentation:** [https://ctf-katana.readthedocs.io](https://ctf-katana.readthedocs.io)
 
 This repository attempts to offer code and material to automate 
 "running through the check-list" or hitting the "low-hanging fruit" in a 
 Capture the Flag challenge. It is meant to act as a utility to help an 
 individual _do things they might __otherwise forget to do__._
 
-A lot of the context and ideas from this stem from the living document at 
-[https://github.com/JohnHammond/ctf-katana](https://github.com/JohnHammond/ctf-katana)
 
 Katana is written in Python 3.
 
-**Please note that this project is not heavily maintained.**
-
-DISCLAIMER
-----------
-
-**Katana will _automatically_ run code and do _potentially_ "malicious" things
-to its target.** It may throw SQL injection, it may try test for local file
-inclusion, uploading web shells or finding a means of remote code execution. 
-**DO NOT, by any means, run this utility against ANYTHING that you do not have
-explicit permission and authorization to test.**
 
 We do not claim responsibility or involvement for anything you break or any 
 trouble you may get into by using this tool.
@@ -110,29 +96,3 @@ The boss will then handle them appropriately.
 
 You can read more about it in the `docs` directory.
 
-Contributing
-------------
-
-If you would like to contribute to Katana, please see [`CONTRIBUTING.md`](CONTRIBUTING.md)
-
-Thank You and Credits
--------------------------
-
-As we got further along in development, we asked members of my Discord server 
-if they would like to assist in creating units. The following is a list of 
-units that were contributions from these members and their names, to offer our
- kudos and thank you. This project would not be what it is without your help!
-
-```
-crypto.dna - voidUpdate, Zwedgy
-crypto.t9 - Zwedgy, r4j
-esoteric.ook - Liikt
-esoteric.cow - Drnkn
-stego.audio_spectrogram - Zwedgy
-stego.dtmf_decoder - Zwedgy
-stego.whitespace - l14ck3r0x01
-hash.md5 - John Kazantzis
-esoteric.jsfuck - Zwedgy
-crypto.playfair - voidUpdate
-crypto.nato_phonetic - voidUpdate
-```
